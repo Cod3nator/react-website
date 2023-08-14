@@ -1,9 +1,8 @@
 /* Responsive styles for the "AboutUs" section */
 .AboutUs {
-    position: relative;
     padding: 20px;
     text-align: center;
-    margin-top: 700px;
+    margin-top: 800px;
 }
 
 /* .flexColCenter {
@@ -46,8 +45,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* overflow-x: scroll; */
 }
 
+/*   
+.circular-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 10px;
+  }
+   */
+  /* .circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
 .custom-col {
     width: calc(50% - 20px);
     margin: 10px;
@@ -59,7 +73,8 @@
 
 @media (min-width: 768px) {
     .AboutUs{
-        margin-top: 850px;
+  position: relative;
+        margin-top: 1000px;
     }
     .custom-col {
         width: calc(33.33% - 20px);

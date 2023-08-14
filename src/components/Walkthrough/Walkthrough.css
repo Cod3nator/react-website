@@ -4,7 +4,7 @@
     text-align: center;
     width: 100%;
     height: 50vh;
-    margin-top: 100px;
+    margin-top: 120px;
     /* background-color: red; */
   }
   .divider {
@@ -24,6 +24,7 @@
     position: relative;
     height: 25rem;
     width: 100%;
+    margin: 3rem;
     /* width:max-content; */
     /* border: 7px solid yellow;
     background-color: aqua;
