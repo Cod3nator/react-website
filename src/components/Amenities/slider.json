@@ -1,0 +1,26 @@
+[
+    {
+       "image":"./assets/Icons/Terrece/0-01.svg",
+       "desc":"Half Net Cricket"
+    },
+    {
+        "image":"./assets/Icons/Terrece/0-02.svg",
+        "desc":"Sky Lounge"
+     },
+     {
+        "image":"./assets/Icons/Terrece/0-03.svg",
+        "desc":"Outdoor Board Games"
+     },
+     {
+        "image":"./assets/Icons/Terrece/0-04.svg",
+        "desc":"Reflexology walks"
+     }, {
+        "image":"./assets/Icons/Terrece/0-05.svg",
+        "desc":"PArty Deck"
+     },
+     {
+        "image":"./assets/Icons/Terrece/0-06.svg",
+        "desc":"Barbeque"
+     }
+     
+]

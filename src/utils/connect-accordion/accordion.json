@@ -1,0 +1,48 @@
+[
+    {
+      "uuid": "connectivity",
+      "heading": "Connectivity",
+      "content": [
+        "Sewri Railway Station - 0.3 km",
+        "Monorail Station - 1.5 km",
+        "Proposed Metro Station - 2.7 km",
+        "Eastern Freeway Exit - 2.9 km",
+        "Worli - 5.2 km",
+        "Haji Ali - 6 km",
+        "Fort - 8.1 km",
+        "CSMT Railway Station - 8.3 km",
+        "BKC - 9.7 km",
+        "Nariman Point - 11.0 km"
+      ]
+    },
+    {
+      "uuid": "hospitals",
+      "heading": "Hospitals",
+      "content": [
+        "KEM - 1.5 km",
+        "Global Hospital - 1.7 km",
+        "TATA Memorial - 1.8 km"
+      ]
+    },
+    {
+      "uuid": "5starhotels",
+      "heading": "5 STAR HOTELS",
+      "content": [
+        "ITC Grand Central - 2 km",
+        "The St. Regis - 4.0 km",
+        "Four Seasons - 5.0 km",
+        "The Taj Mahal Palace - 9.7 km"
+      ]
+    },
+    {
+      "uuid": "shopping",
+      "heading": "SHOPPING DESTINATIONS",
+      "content": [
+        "Palladium - 5.5 km",
+        "Atria Mall - 7 km",
+        "CR2 Mall - 10.5 km",
+        "Phoenix Market City - 13 km"
+      ]
+    }
+  ]
+  

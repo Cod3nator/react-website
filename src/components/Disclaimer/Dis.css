@@ -1,0 +1,28 @@
+/* Responsive styles for the "Disclaimer" section */
+.disclaimer {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #607D8B, #90A4AE)
+}
+
+.disclaimer-row {
+    display: flex;
+    justify-content: center;
+}
+
+.disclaimer-col {
+    width: 100%;
+    max-width: 800px;
+}
+
+.centered-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Additional responsive styles as needed */

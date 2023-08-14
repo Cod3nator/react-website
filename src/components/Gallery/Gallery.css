@@ -1,0 +1,54 @@
+.Gallery{
+    position: relative;
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+}
+.Holder{
+    /* background-color: black; */
+    height: 60vh;
+}
+/* img{
+    height: ;
+} */
+.img-wrapper {
+    position: relative;
+    width: 100%;
+     /* Set the maximum height to 100% of the slide */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Example styles for the image */
+  .img-wrapper img {
+    width: auto;
+    height: 100%;
+    max-width: 100%; 
+      object-fit: contain; /* This will maintain the image's aspect ratio within the max height */
+  }
+  
+  /* .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  } */
+
+@media (max-width: 450px){
+    .Holder{
+        /* background-color: aqua; */
+    }
+    .img-wrapper{
+        height: 400px;
+        /* background-color: black; */
+    }
+    .img-wrapper img{
+        display: block;
+      
+        width: auto;
+        
+        max-width: 100%; 
+          object-fit: contain; 
+    }
+}

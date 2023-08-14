@@ -1,0 +1,69 @@
+/* Responsive styles for the footer */
+.footer {
+    position: relative;
+    background-color: #4a2020fa;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.footer-col {
+    width: 100%;
+    max-width: 100%;
+
+    @media (min-width: 768px) {
+        max-width: 50%;
+    }
+}
+
+.footer-left, .footer-right {
+    margin: 10px; /* Adjust spacing as needed */
+    font-size: 14px;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        text-align: initial;
+    }
+}
+
+.social-icon {
+    margin: 10px; /* Adjust spacing as needed */
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    justify-content: space-between;
+    transition: color 0.3s; /* Adding transition for smooth hover effect */
+
+    @media (min-width: 768px) {
+        display: inline-block;
+    }
+
+    /* Hover effect */
+    &:hover {
+        color: #FFC107; /* Change color on hover */
+    }
+}
+
+/* Additional responsive styles as needed */

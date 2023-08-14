@@ -1,0 +1,48 @@
+.Layout {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 120px;
+}
+
+.wrapper {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+}
+
+.left-layout,
+.right-layout {
+    height: 50%;
+}
+
+.left-layout {
+    /* background-color: aqua; */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.right-layout {
+    /* background-color: bisque; */
+    width: 100%;
+}
+
+.left-layout img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Query for screen width above 650px */
+@media (min-width: 651px) {
+    .wrapper {
+        flex-direction: row;
+    }
+    .left-layout,
+    .right-layout {
+        width: 50%;
+    }
+}

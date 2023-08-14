@@ -1,0 +1,75 @@
+/* Responsive styles for the "AboutUs" section */
+.AboutUs {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    margin-top: 700px;
+}
+
+/* .flexColCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.primaryText {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.spaceBox {
+    height: 20px;
+}
+
+.Content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Responsive styles for the circular images */
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column; /* Set as column on small screens */
+    align-items: center; /* Center items horizontally */
+    justify-content: center;
+}
+.custom-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-col {
+    width: calc(50% - 20px);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+@media (min-width: 768px) {
+    .AboutUs{
+        margin-top: 850px;
+    }
+    .custom-col {
+        width: calc(33.33% - 20px);
+    }
+    
+    .custom-container {
+        flex-direction: row; /* Reset to row on larger screens */
+        align-items: flex-start; /* Align items to the start on larger screens */
+    }
+    .custom-row{
+        flex-direction: row;
+    }
+}
